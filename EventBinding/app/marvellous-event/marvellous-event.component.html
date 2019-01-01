@@ -1,0 +1,19 @@
+<h2>Press button to generate event</h2>
+<button (click)="MarvellousEvent()">Marvellos</button>
+
+<button (click)="MarvellousNewEvent()">Infosystems</button>
+
+<h1>{{str}}</h1>
+
+<!-- By using $event we can fetch information about the event-->
+
+
+<button (click)="MarvellousEventInfo($event)">MarvellousEventInfo</button>
+
+
+<button (click)= "onservercreation()">create</button>
+<h1>{{serverstatus}}</h1>
+
+<label >user Name</label>
+<input type=text (input)="userinfo($event)">
+<H1>{{UserName}}</H1>
